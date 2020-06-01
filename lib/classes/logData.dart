@@ -1,17 +1,17 @@
 class LogData{
-  String status;
+  bool online;
   String message;
   String log;
 
   LogData({
-    this.status,
+    this.online,
     this.message,
     this.log
 });
 
   factory LogData.fromJson(Map<String, dynamic> json){
     return LogData(
-      status: json["status"],
+      online: json["online"],
       message: json["message"],
       log: json["log"],
     );

@@ -101,7 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context){
                   return minecraftMain();
-                }));              },
+                }));
+                },
               child: const Text ('Minecraft Server', style: TextStyle(fontSize: 20)),
               textColor: Colors.white,
               color: Colors.black38,
